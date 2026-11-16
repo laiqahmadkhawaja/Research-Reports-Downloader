@@ -38,18 +38,26 @@ venv.bak/
 *.log
 SEC_10K_Downloader/logs/*
 !SEC_10K_Downloader/logs/.gitkeep
+UK_NSM_Downloader/logs/*
+!UK_NSM_Downloader/logs/.gitkeep
 
 # Runtime state and progress tracking
 SEC_10K_Downloader/state/*
 !SEC_10K_Downloader/state/.gitkeep
+UK_NSM_Downloader/state/*
+!UK_NSM_Downloader/state/.gitkeep
 
 # Downloaded filing reports (HTML / XML / PDF)
 SEC_10K_Downloader/downloaded_reports/*
 !SEC_10K_Downloader/downloaded_reports/.gitkeep
+UK_NSM_Downloader/downloaded_reports/*
+!UK_NSM_Downloader/downloaded_reports/.gitkeep
 
 # Generated output results (Excel / CSV)
 SEC_10K_Downloader/results/*
 !SEC_10K_Downloader/results/.gitkeep
+UK_NSM_Downloader/results/*
+!UK_NSM_Downloader/results/.gitkeep
 
 # IDEs & OS specific
 .vscode/
